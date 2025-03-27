@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Genera un snapshot del componente TodoItem 1`] = `
+<DocumentFragment>
+  <li
+    class="li"
+    data-testid="item1"
+    id="1"
+    title="item"
+  >
+    <input
+      class="input"
+      data-testid="checkboxItem1"
+      type="checkbox"
+    />
+    <div
+      class="textRow"
+    >
+      <strong
+        class="title"
+      >
+        title1
+      </strong>
+      <div
+        class="text"
+      >
+        Aprender Jest
+      </div>
+    </div>
+    <button
+      data-testid="editItem1"
+      title="Edit"
+      type="button"
+    >
+      🖉
+    </button>
+    <button
+      data-testid="deleteItem1"
+      title="Delete"
+      type="button"
+    >
+      🗑
+    </button>
+  </li>
+</DocumentFragment>
+`;

@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 15px;
+    line-height: 1;
+
+    a {
+        text-decoration: underline dashed;
+        cursor: pointer;
+    }
+}
+.nav {
+    .active {
+        text-decoration: none;
+        color: black;
+        cursor: auto;
+    }
+}
